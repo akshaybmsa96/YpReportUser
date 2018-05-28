@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yp.com.akki.ypreport.fragment.DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center|center_horizontal"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="Submit Report"
+        android:textColor="@color/white"
+        android:textSize="16dp" />
+
+</FrameLayout>
